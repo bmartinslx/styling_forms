@@ -1,0 +1,79 @@
+body {
+   background-color: rgba(211, 186, 113, 0.678);
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   padding: 40px;
+}
+
+#main-container {
+   width: 600px;
+   margin: 0 auto;
+}
+
+fieldset {
+   padding: 40px;
+   border: solid 1px #aaa;
+   background-image: url("/images/blue_background.jpg");
+}
+
+fieldset legend {
+   background: white;
+   padding: 10px;
+   border: solid 1px #aaa;
+}
+
+form {
+   margin-top: 40px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+   padding: 10px;
+   margin: 0 0 20px;
+   border: solid 1px #454545;
+   border-top: none;
+   display: block;
+   width: 50%;
+   font-size: 14px;
+   color: #777;
+   font-family: Monaco, monospace;
+   text-transform: uppercase;
+}
+
+label {
+   font-size: 12px;
+   text-transform: uppercase;
+   background: url("/images/red_background.jpg");
+   display: block;
+   width: 50%;
+   padding: 2%;
+   color: white;
+}
+
+input[type="submit"] {
+   background: none;
+   background-image: url("/images/button_background.jpg");
+   border: solid 2px #101010;
+   height: 40px;
+   padding: 0 40px;
+   color: white;
+}
+
+input[type="submit"]:hover {
+   cursor: pointer;
+   border-color: #444;
+}
+
+input[type="submit"]:active {
+   border-color: #111;
+   outline-color: red;
+}
+
+textarea {
+   resize: none;
+}
